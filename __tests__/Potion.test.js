@@ -1,7 +1,5 @@
 const Potion = require("../lib/Potion.js");
 
-console.log(new Potion());
-
 test("creates a health potion obj", () => {
 	const potion = new Potion("health");
 
